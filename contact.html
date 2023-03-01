@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cole Taylor</title>
+    </head>
+    <body>
+        <header>
+            <h1>Cole Taylor</h1>
+            <nav>
+                <a href="coletaylor.html">Home</a>
+                <a href="work.html">Work</a>
+                <a href="school.html">School</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <section>
+            <h2>Tell me what you think:</h2>
+        </section>
+        <form action="contact.php" method="POST">
+            <h4>Name</h4>
+            <p>
+                <label for="first">First Name</label>
+                <input type="text" id="first" name="first" required>
+            </p>
+            <p>
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="last" required>
+            </p>
+            <h4>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" required>
+            </h4>
+            <h4>
+                <label for="phone1">Phone</label>
+            </h4>
+            <p>
+                <input type="text" id="phone1" name="phone1" required>
+                (###)
+            </p>
+            <p>
+                <label for="phone2"></label>
+                <input type="text" id="phone2" name="phone2" required>
+                ###
+            </p>
+            <p>
+                <label for="phone3"></label>
+                <input type="text" id="phone3" name="phone3" required>
+                ####
+            </p>
+            <h4>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="7" cols="50" required></textarea>
+            </h4>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+        <footer>
+            <p>See my career updates.</p>
+            <a href="https://www.linkedin.com/in/mcoletaylor"><img src="LI.jpeg" alt="LinkedIn Logo" height="30" width="30"></a>
+        </footer>
+    </body>
+</html>
